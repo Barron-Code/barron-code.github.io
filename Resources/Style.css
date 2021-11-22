@@ -1,0 +1,169 @@
+* {
+    background-color: black;
+    font-family: helvetica;
+    color: seashell;
+    opacity: 0.9;
+  }
+
+.body {
+    margin: 0 0;
+}
+
+.logo {
+    position: relative;
+    vertical-align: middle;
+    height: 69px;
+    padding-left: 2px;
+    border-bottom: 1px solid seashell;
+}
+
+.logo1 {
+    display: inline;
+    position: absolute;
+    top: 9.5px;
+    padding-left: 10px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    width: 250px;
+    height: 69px;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.background-image {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image2 {
+    position: relative; 
+}
+
+.text-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1200px;
+    text-align: center;
+    opacity: 1;
+}
+
+h2 {
+    margin: 21.280px 0px;
+}
+
+/*Tea of the Month*/
+
+.headingtea {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 1000px; 
+    height: auto;
+    align-content: center;
+    margin-bottom: 30px;
+}
+
+.teaofthemonth {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.teacozy {
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+.imageone {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+figure {
+    margin: 0px 15px 16px;
+}
+
+figcaption {
+    margin-top: 10px;
+}
+
+/*Locations*/
+
+.lastimage {
+    position: relative;
+
+}
+
+.lione {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Locations {
+    position: absolute;
+    top: 40px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.txtonetwothree {
+    position: absolute;
+    display: flex;
+    width: 1000px;
+    background-color: transparent;
+    text-align: center;
+    opacity: 1;
+}
+
+.onetwothree {
+    height: 300px;
+    width: 300px;
+    margin: 15px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    opacity: 1;
+    flex-direction: column;
+    line-height: 60px;
+    font-size: 21px;
+}
+
+h3 {
+    margin: 0px;
+}
+
+.theteacozy {
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+    padding-top: 10px;
+    height: 190px;
+}
+
+h5 {
+    font-size: 13.28px;
+}
+
+/*footer*/
+
+footer {
+    padding-left: 20px;
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 30px;
+}
